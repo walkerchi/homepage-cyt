@@ -1,0 +1,28 @@
+.container{
+    width:100%;
+    height:100vh;
+    background-color: #555;
+}
+.root > circle, .branch > circle, .leaf>circle{
+    fill: #fdfdfd;
+    transition: ease-in-out .3s;
+    r: 40;
+}
+.root > circle:hover{
+    cursor: default;
+}
+.branch > circle:hover, .leaf>circle:hover{
+    cursor: default;
+    transform: scale(2.0);
+    cursor: pointer;
+}
+.branch > g > text, .leaf > g > text{
+    fill: #fdfdfd;
+    font-size: 12px;
+    transform: translate(0px, -10px);
+    transition: ease-in-out .3s;
+}
+.branch > circle:hover + g > text , .leaf > circle:hover + g > text {
+    transform: translate(-150px, -0px) scale(3.0);
+    fill: #222;
+}
