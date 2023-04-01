@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-nightly-index-js","path":"/cn/blog/second_folder/","result":{"pageContext":{"slug":"cn/blog/second_folder","html":"<h1>这个是第二个文件夹的介绍</h1>\n<hr>\n<p>by 曹悦童</p>\n<h2>这是一个二级标题</h2>\n<p>$$\r\n1 + 1 = 2\r\n$$</p>\n<pre><code class=\"language-python\">import numpy as np\n</code></pre>"}},"staticQueryHashes":[],"slicesMap":{}}
